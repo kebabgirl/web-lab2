@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PollUA</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header bg-dark">
+            <div class="header__container container">
+                <nav class="header__nav navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM160 368c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16V240c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v128zm96 0c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16V144c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v224zm96 0c0 8.84-7.16 16-16 16h-32c-8.84 0-16-7.16-16-16v-64c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v64z"/>
+                            </svg>
+                            PollUA
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarColor03">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html">Home<span class="visually-hidden">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/profile.html">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/signup.html">Sign up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pages/signin.html">Sign in</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-sm-2" type="search" placeholder="Search">
+                              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                          </div>
+                    </div>
+                </nav>
+            </div>    
+        </header>
+        <main class="page">
+            <section class="page__home home">
+                <div class="home__buttons"><button type="button" class="btn btn-info button-add create__button">Створити опитування</button></div>
+                <div class="home__container container">
+                  <div class="pools">
+                    <div class="pool">
+                      <div class="pool__title-wrapper">
+                        <span class="pool__title">What gift should we give to our business partners?</span>
+                        <div class="button-delete delete-poll-btn">
+                          <svg class="delete-icon" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 26" xml:space="preserve">
+                            <path d="M21.125,0H4.875C2.182,0,0,2.182,0,4.875v16.25C0,23.818,2.182,26,4.875,26h16.25
+                              C23.818,26,26,23.818,26,21.125V4.875C26,2.182,23.818,0,21.125,0z M18.78,17.394l-1.388,1.387c-0.254,0.255-0.67,0.255-0.924,0
+                              L13,15.313L9.533,18.78c-0.255,0.255-0.67,0.255-0.925-0.002L7.22,17.394c-0.253-0.256-0.253-0.669,0-0.926l3.468-3.467
+                              L7.221,9.534c-0.254-0.256-0.254-0.672,0-0.925l1.388-1.388c0.255-0.257,0.671-0.257,0.925,0L13,10.689l3.468-3.468
+                              c0.255-0.257,0.671-0.257,0.924,0l1.388,1.386c0.254,0.255,0.254,0.671,0.001,0.927l-3.468,3.467l3.468,3.467
+                              C19.033,16.725,19.033,17.138,18.78,17.394z"/>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="separator"></div>
+                      <div class="pool__variants">
+                        <div class="pool__variants__item">
+                          <div class="variant__number">1.</div>
+                          <div class="variant__content">
+                            <div class="variant__title">Slido socks</div>
+                            <div class="variant__progress-wrapper">
+                              <div class="variant__progress-bar">
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                </div>
+                              </div>
+                              <div class="variant__progress-percent">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pool__variants__item">
+                          <div class="variant__number">2.</div>
+                          <div class="variant__content">
+                            <div class="variant__title">Custom Moleskine</div>
+                            <div class="variant__progress-wrapper">
+                              <div class="variant__progress-bar">
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
+                                </div>
+                              </div>
+                              <div class="variant__progress-percent">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pool__variants__item">
+                          <div class="variant__number">3.</div>
+                          <div class="variant__content">
+                            <div class="variant__title">Eco water bottle</div>
+                            <div class="variant__progress-wrapper">
+                              <div class="variant__progress-bar">
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                </div>
+                              </div>
+                              <div class="variant__progress-percent">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pool__variants__item">
+                          <div class="variant__number">4.</div>
+                          <div class="variant__content">
+                            <div class="variant__title">Bluetooth speaker</div>
+                            <div class="variant__progress-wrapper">
+                              <div class="variant__progress-bar">
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                </div>
+                              </div>
+                              <div class="variant__progress-percent">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="pool__variants__item">
+                          <div class="variant__number">5.</div>
+                          <div class="variant__content">
+                            <div class="variant__title">Branded power bank</div>
+                            <div class="variant__progress-wrapper">
+                              <div class="variant__progress-bar">
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                                </div>
+                              </div>
+                              <div class="variant__progress-percent">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="optionsRadios" id="optionsRadios1" value="option1">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="buttons">
+                        <button type="button" class="btn btn-primary vote-poll-btn">Vote</button>
+                        <button type="button" class="btn btn-secondary cancel-poll-btn">Cancel</button>
+                    </div>
+                  </div>
+                  </div>
+                </div>             
+            </section>
+        </main>
+        <footer class="footer bg-dark">
+            <div>2024 PollUA ©</div>
+        </footer>
+        <div class="add-modal">
+          <div class="add-modal__content">
+              <div class="add-modal__header">
+                  <h4 class="add-modal__title">Створити опитування</h4>
+                  <div class="add-modal__close button-delete"><svg class="delete-icon" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 26" xml:space="preserve">
+                    <path d="M21.125,0H4.875C2.182,0,0,2.182,0,4.875v16.25C0,23.818,2.182,26,4.875,26h16.25
+                      C23.818,26,26,23.818,26,21.125V4.875C26,2.182,23.818,0,21.125,0z M18.78,17.394l-1.388,1.387c-0.254,0.255-0.67,0.255-0.924,0
+                      L13,15.313L9.533,18.78c-0.255,0.255-0.67,0.255-0.925-0.002L7.22,17.394c-0.253-0.256-0.253-0.669,0-0.926l3.468-3.467
+                      L7.221,9.534c-0.254-0.256-0.254-0.672,0-0.925l1.388-1.388c0.255-0.257,0.671-0.257,0.925,0L13,10.689l3.468-3.468
+                      c0.255-0.257,0.671-0.257,0.924,0l1.388,1.386c0.254,0.255,0.254,0.671,0.001,0.927l-3.468,3.467l3.468,3.467
+                      C19.033,16.725,19.033,17.138,18.78,17.394z"/>
+                </svg></div>
+              </div>
+              <div class="add-modal__body">
+                  <form action="#" class="add-modal__form">
+                      <input required placeholder="Назва" name="name" type="text" class="add-modal__name">
+                      <textarea required placeholder="Варіанти відповідей (через кому), наприклад '1, 2, 3, 4'" name="text" type="text" class="add-modal__variants"></textarea>
+                      <button type ="submit" class="btn btn-success add-modal__button">Створити</button>
+                  </form>
+                  <p id="addErrorMessage"></p>
+              </div>
+          </div>
+      </div>
+        <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.logo-icon {
+  width: 20px;
+  height: 20px;
+
+  fill: white;
+}
+
+.logo-title {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container {
+  padding: 30px 20px;
+}
+
+.footer {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  font-weight: 500;
+}
+
+.page__about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.about__title {
+  color: rgb(67, 74, 110);
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile__alert {
+  margin-bottom: 30px;
+}
+
+.signin__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+form {
+  max-width: 500px;
+}
+
+.form-group,
+.main-login__form {
+  width: 100%;
+}
+
+.main-login__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.buttons {
+}
+
+.mt-4 {
+  margin-top: 1rem !important;
+}
+
+.signup__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.signup-btn {
+  margin-top: 20px;
+}
+
+.pools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pool {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 10px;
+  padding: 15px;
+  padding-top: 30px;
+  border-radius: 10px;
+  position: relative;
+  width: 450px;
+}
+
+.pool__title-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+
+.pool__title {
+  font-weight: 500;
+}
+
+.pool__number {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.separator {
+  width: 100%;
+  height: 0.5px;
+  background-color: rgb(186, 186, 186);
+}
+
+.pool__variants {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 10px;
+}
+
+.pool__variants__item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.variant__number {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.variant__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.variant__title {
+  font-size: 12px;
+}
+
+.variant__progress-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.variant__progress-bar {
+  width: 90%;
+}
+
+.progress {
+  height: 10px;
+}
+
+.variant__progress-percent {
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.header__nav {
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: max-content;
+}
+
+.me-sm-2 {
+  width: 200px;
+}
+
+.my-sm-0 {
+  font-size: 10px;
+  padding: 5px;
+}
+
+.home__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.create__button {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.page {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+.add-modal {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.add-modal_active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-modal__content {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid rgb(189, 184, 184);
+  border-radius: 10px;
+  padding: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  z-index: 100;
+}
+
+.add-modal__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  font-size: 15px;
+}
+
+.add-modal__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.add-modal__variants {
+  width: 100%;
+  height: 100%;
+}
+
+.add-modal__header {
+  text-align: start;
+}
+
+.add-modal__close:hover {
+  cursor: pointer;
+}
+
+.button-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.delete-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.add-modal__title {
+  font-size: 20px;
+  font-weight: 500;
+}
